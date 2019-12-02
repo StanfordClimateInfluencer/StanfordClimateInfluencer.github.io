@@ -12,4 +12,11 @@ github_username:
 markdown: kramdown
 program:
     name: Stanford Climate Influencer Program
+    description: Despite the importance of the climate crisis, most people feel powerless and unsure about how to make a difference. We have been developing some ideas for empowering you and others like you to have a bigger impact and directly inspire action in policy makers. Join us and fight against climate crisis with your leadership! 
+
+contact:
+    email: climatecrisis@cs.stanford.edu 
+    twitter: TODO
+    github: https://github.com/StanfordClimateInfluencer
+    
 
