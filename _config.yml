@@ -7,7 +7,7 @@ url: "" # the base hostname & protocol for your site
 markdown: kramdown
 program:
     name: Stanford Climate Influencer Program
-    description: "To the generation affected by climate change: You can make a difference."
+    description: "To the generation affected by climate change: You can make a difference. Become a #ClimateInfluencer."
  
     signup: https://docs.google.com/forms/d/e/1FAIpQLSfJDWQ64snme56JIL79A6n2vEm9FUsRP1ZPmFQD30QwBMOrCg/viewform
 
