@@ -6,11 +6,13 @@
             <p> 
                 {{ site.program.description }}        
             </p>
-            <button id="ff-launch-popup" class="btn btn-primary btn-xl page-scroll">Sign up here</button>
-            <script async defer src="https://formfacade.com/include/111701135432832849084/form/1FAIpQLSfJDWQ64snme56JIL79A6n2vEm9FUsRP1ZPmFQD30QwBMOrCg/popup.js?onclick=ff-launch-popup"></script>
-
-
-            <a href="{{ site.program.signup }}" Sign up here</a>
+            It’s time for you to have an important message to say, and become a #ClimateInfluencer.
+            <form action="https://formspree.io/xjvkpnov" method="POST">
+                <input type="text" name="fullname" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email"></br>
+                <input type="checkbox" name="age"> I certify I am over 13 and want to be an influencer
+                <button type="submit">Sign up to be an Influencer</button>
+            </form>
         </div>
     </div>
 </header>
