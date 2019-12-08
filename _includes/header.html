@@ -6,12 +6,36 @@
             <p> 
                 {{ site.program.description }}        
             </p>
-            <form action="https://formspree.io/xjvkpnov" method="POST" style="color:rgba(255,255,255,0.7); font-size:17px; ">
-                <input type="text" name="fullname" placeholder="Full Name" style="color:black">
-                <input type="email" name="email" placeholder="Email" style="color:black">
-                <input type="submit" style="background-color:darkred; font-size:17px; height: 40px" value="Sign up to be an Influencer"></br>
-                <input type="checkbox" name="age"><span style="font-size: 14px; "> I certify I am over 13 and want to be an influencer
-                <input type=”hidden” name=”_next” value=”/" style="display:none;" />
+            <form action="https://formspree.io/xjvkpnov" method="POST" style="color:rgba(255,255,255,0.7); ">
+                <div class="row" style="font-size:17px">
+                    <div class="form-group col-sm-3 col-sm-offset-2">
+                        <div class="input-group text-left">
+                           <div class="input-group-addon">
+                              <i class="fa fa-user"></i>
+                           </div>
+                           <input type="text" name="fullname" placeholder="Enter your full name" style="color:black">
+                        </div>
+                    </div>
+
+                   <div class="form-group col-sm-3 col-sm-offset-1">
+                        <div class="input-group text-left">
+                            <div class="input-group-addon">
+                              <i class="fa fa-envelope"></i>
+                            </div>
+                        <input class="col-11" type="email" name="email" placeholder="Enter email" style="color:black">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <input type="checkbox" name="age"><span style="font-size: 14px; "> <span class="asteriskField" style="color:red">*</span>
+                       I certify I am over 13 and want to be an influencer
+                    <input type=”hidden” name=”_next” value=”/" style="display:none;" />
+                </div>
+
+                <div class="row">
+                    <button type="submit" class="btn btn-primary btn-xl page-scroll"> Sign up to be an Influencer</button>
+                </div>
             </form>
         </div>
     </div>
