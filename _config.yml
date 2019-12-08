@@ -3,30 +3,13 @@ title: "Stanford Climate Influencer Program"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
-
 # Build settings
 markdown: kramdown
 program:
     name: Stanford Climate Influencer Program
-    description: "To the generation affected by climate change: You can make a difference. 
-
-What if you told an adult...
-If you care about my future, you would care about climate change and vote to fight it.
-...how would they react?
-
-Let’s change the minds of adults around us by starting the conversation and watching this YouTube video for right leaning adults or that video for left-leaning adults and discuss it with them. Together among the 42 million teens in the US, if we all talk to 3 adults each, we nearly reach the entire voter turnout in the 2016 US Presidential Election."
+    description: "To the generation affected by climate change: You can make a difference."
  
     signup: https://docs.google.com/forms/d/e/1FAIpQLSfJDWQ64snme56JIL79A6n2vEm9FUsRP1ZPmFQD30QwBMOrCg/viewform
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
-      values: What if you told an adult
-      layout: single
-      author_profile: true
 
 contact:
     email: climatecrisis@cs.stanford.edu 
