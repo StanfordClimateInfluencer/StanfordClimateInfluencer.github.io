@@ -1,3 +1,7 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
 <header>
     <div class="header-content">
         <div class="header-content-inner">
@@ -6,7 +10,8 @@
             <p> 
                 {{ site.program.description }}        
             </p>
-            <form action="https://formspree.io/xjvkpnov" method="POST" style="color:rgba(255,255,255,0.7); ">
+            <form id="application" action="https://formspree.io/xjvkpnov" method="POST" style="color:rgba(255,255,255,0.7); ">
+            <!-- <form id="application" style="color:rgba(255,255,255,0.7); ">--> 
                 <div class="row" style="font-size:17px">
                     <div class="form-group col-sm-3 col-sm-offset-2">
                         <div class="input-group text-left">
@@ -28,7 +33,7 @@
                 </div>
 
                 <div class="row">
-                    <input type="checkbox" name="age"><span style="font-size: 14px; "> <span class="asteriskField" style="color:red">*</span>
+                    <input type="checkbox" name="age" id="ageChecked"><span style="font-size: 14px;"> <span class="asteriskField" style="color:red">*</span>
                        I certify I am over 13 and want to be an influencer
                     <input type=”hidden” name=”_next” value=”/" style="display:none;" />
                 </div>
@@ -40,3 +45,17 @@
         </div>
     </div>
 </header>
+
+<script type="text/javascript">
+$(document).ready(function () {
+        $("#application").submit(function(e) {
+            if (document.getElementById("ageChecked").checked) {   
+                $("#application").submit();
+            }
+            else {
+                e.preventDefault();
+                alert('You must be 13 plus to sign up!');
+            }
+        });
+});
+</script>
