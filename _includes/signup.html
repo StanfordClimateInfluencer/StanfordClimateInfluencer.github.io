@@ -1,0 +1,52 @@
+<section class="bg-primary" id="signup">
+    <div class="container">
+        <div class="row">
+            <form id="application" action="https://formspree.io/xjvkpnov" method="POST" style="color:rgba(255,255,255,0.7); ">
+                        <div class="row" style="font-size:17px">
+                            <div class="form-group col-sm-3 col-sm-offset-2">
+                                <div class="input-group text-left">
+                                   <div class="input-group-addon">
+                                      <i class="fa fa-user"></i>
+                                   </div>
+                                   <input type="text" name="fullname" placeholder="Name" style="color:black">
+                                </div>
+                            </div>
+
+                           <div class="form-group col-sm-3 col-sm-offset-1">
+                                <div class="input-group text-left">
+                                    <div class="input-group-addon">
+                                      <i class="fa fa-envelope"></i>
+                                    </div>
+                                <input class="col-11" type="email" name="email" placeholder="Email" style="color:black">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row disclaim">
+                                    <input type="checkbox" name="age" id="ageChecked">
+                                    <span class="asteriskField" style="color:red">*</span>
+                                       I certify I am over 13 and want to be an influencer
+                            <input type=”hidden” name=”_next” value=”/" style="display:none;" />
+                        </div>
+
+                        <div class="row">
+                            <button type="submit" class="btn btn-primary btn-lg"> Sign Up</button>
+                        </div>
+                </form> 
+        </div>
+    </div> 
+
+<script type="text/javascript">
+$(document).ready(function () {
+        $("#application").submit(function(e) {
+            if (document.getElementById("ageChecked").checked) {   
+                $("#application").submit();
+            }
+            else {
+                e.preventDefault();
+                alert('You must be 13 plus to sign up!');
+            }
+        });
+});
+</script> 
+</section>

@@ -155,7 +155,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    //background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -167,6 +167,7 @@ header {
             h1 {
                 font-weight: 700;
                 //text-transform: uppercase;
+                color: rgba(black, .7);
                 margin-top: 150px;
                 margin-bottom: 50px;
             }
@@ -264,7 +265,7 @@ header {
                 font-size: 14px;
             }
             .project-name {
-                font-size: 18px;
+                font-size: 16px;
             }
         }
     }
