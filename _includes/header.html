@@ -5,7 +5,7 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <h1> {{ site.program.name }} </h1>
+            <h1> {{ site.program.stats }} </h1>
             <hr>
             <p> 
                 {{ site.program.description }}        
@@ -32,14 +32,15 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <input type="checkbox" name="age" id="ageChecked"><span style="font-size: 14px;"> <span class="asteriskField" style="color:red">*</span>
-                       I certify I am over 13 and want to be an influencer
+                <div class="row disclaim">
+                            <input type="checkbox" name="age" id="ageChecked">
+                            <span class="asteriskField" style="color:red">*</span>
+                               I certify I am over 13 and want to be an influencer
                     <input type=”hidden” name=”_next” value=”/" style="display:none;" />
                 </div>
 
                 <div class="row">
-                    <button type="submit" class="btn btn-primary btn-xl page-scroll"> Sign up to be an Influencer</button>
+                    <button type="submit" class="btn btn-primary btn-lg"> Sign Up</button>
                 </div>
             </form>
         </div>
