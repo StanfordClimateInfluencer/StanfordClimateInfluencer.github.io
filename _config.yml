@@ -1,17 +1,4 @@
-# Site settings
+#V Site settings
 title: "Stanford Climate Influencer"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-
-# Build settings
-markdown: kramdown
-program:
-    name: Stanford Climate Influencer
-    description: "If we talk to 3 adults each, we can reach the entire voter turn out. <br> <br> -- 42 million teens*"
-    signup: https://docs.google.com/forms/d/e/1FAIpQLSfJDWQ64snme56JIL79A6n2vEm9FUsRP1ZPmFQD30QwBMOrCg/viewform
-
-contact:
-    email: climatecrisis@cs.stanford.edu 
-    twitter: https://twitter.com/stanfordclimate 
-    instagram: https://www.instagram.com/stanfordclimateinfluencers 
-
+theme: jekyll-theme-cayman
